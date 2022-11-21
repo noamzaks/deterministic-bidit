@@ -1,0 +1,15 @@
+{
+    "name": "Deterministic Bid-It",
+    "description": "Pick a deterministic color for each course",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["tabs"],
+    "host_permissions": ["https://bid-it.appspot.com/*"],
+    "content_scripts": [
+        {
+            "matches": ["https://bid-it.appspot.com/*"],
+            "js": ["bidit.js"],
+            "css": ["bidit.css"]
+        }
+    ]
+}

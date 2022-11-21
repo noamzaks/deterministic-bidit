@@ -1,0 +1,23 @@
+.white-text,
+.white-text * {
+    color: #fff;
+}
+
+.white-text:hover,
+.white-text *:hover,
+.white-text:focus,
+.white-text *:focus {
+    color: #ddd;
+}
+
+.black-text,
+.black-text * {
+    color: #000;
+}
+
+.black-text:hover,
+.black-text *:hover,
+.black-text:focus,
+.black-text *:focus {
+    color: #333;
+}
